@@ -89,11 +89,55 @@ public class GenerarEjemplosDePlanes {
         segundo.getMaterias().add(new MateriaImpl(segundo, codigoMateria++, "Espacios Optativos 2019/2021", 3.0));
         segundo.getMaterias().add(new MateriaImpl(segundo, codigoMateria++, "Espacios Optativos 2022", 3.0));
 
-        // MATEIAS DEL PLAN 2018 - SEGUNDO AÑO
-        tercero.getMaterias().add(new MateriaImpl(tercero, codigoMateria++, "nombre", 0.0));
+        // MATERIAS DEL PLAN 2018 - TERCER AÑO
+        tercero.getMaterias().add(new MateriaImpl(tercero, codigoMateria++, "Ciencias Naturales", 3.0));
+        tercero.getMaterias().add(new MateriaImpl(tercero, codigoMateria++, "Lengua y LIteratura Castellanas III", 5.0));
+        tercero.getMaterias().add(new MateriaImpl(tercero, codigoMateria++, "Lengua y Culturas Latinas III", 4.0));
+        tercero.getMaterias().add(new MateriaImpl(tercero, codigoMateria++, "Lengua y Culturas Inglesas III", 3.0));
+        tercero.getMaterias().add(new MateriaImpl(tercero, codigoMateria++, "Formacion Plastica III", 3.0));
+        tercero.getMaterias().add(new MateriaImpl(tercero, codigoMateria++, "Matematica III", 4.0));
+        tercero.getMaterias().add(new MateriaImpl(tercero, codigoMateria++, "Geografia III", 3.0));
+        tercero.getMaterias().add(new MateriaImpl(tercero, codigoMateria++, "Historia III", 3.0));
+        tercero.getMaterias().add(new MateriaImpl(tercero, codigoMateria++, "Formacion Etica y Ciudadana III", 3.0));
+        tercero.getMaterias().add(new MateriaImpl(tercero, codigoMateria++, "Educacion Tecnologica", 3.0));
+        tercero.getMaterias().add(new MateriaImpl(tercero, codigoMateria++, "Educacion Fisica y Deportes III", 3.0));
+        tercero.getMaterias().add(new MateriaImpl(tercero, codigoMateria++, "Espacios Optativos 2020/2021", 3.0));
+        tercero.getMaterias().add(new MateriaImpl(tercero, codigoMateria++, "Espacios Optativos 2021", 3.0));
+        tercero.getMaterias().add(new MateriaImpl(tercero, codigoMateria++, "Espacios Optativos 2022", 3.0));
+
+        //MATERIAS DEL PLAN 2018 - CUARTO AÑO
+
+        cuarto.getMaterias().add(new MateriaImpl(cuarto, codigoMateria++, "nombre", 0.0));
+        cuarto.getMaterias().add(new MateriaImpl(cuarto, codigoMateria++, "nombre", 0.0));
+        cuarto.getMaterias().add(new MateriaImpl(cuarto, codigoMateria++, "nombre", 0.0));
+        cuarto.getMaterias().add(new MateriaImpl(cuarto, codigoMateria++, "nombre", 0.0));
+        cuarto.getMaterias().add(new MateriaImpl(cuarto, codigoMateria++, "nombre", 0.0));
+        cuarto.getMaterias().add(new MateriaImpl(cuarto, codigoMateria++, "nombre", 0.0));
+        cuarto.getMaterias().add(new MateriaImpl(cuarto, codigoMateria++, "nombre", 0.0));
+        cuarto.getMaterias().add(new MateriaImpl(cuarto, codigoMateria++, "nombre", 0.0));
+        cuarto.getMaterias().add(new MateriaImpl(cuarto, codigoMateria++, "nombre", 0.0));
+        cuarto.getMaterias().add(new MateriaImpl(cuarto, codigoMateria++, "nombre", 0.0));
+        cuarto.getMaterias().add(new MateriaImpl(cuarto, codigoMateria++, "nombre", 0.0));
+        cuarto.getMaterias().add(new MateriaImpl(cuarto, codigoMateria++, "nombre", 0.0));
+        cuarto.getMaterias().add(new MateriaImpl(cuarto, codigoMateria++, "nombre", 0.0));
+        cuarto.getMaterias().add(new MateriaImpl(cuarto, codigoMateria++, "nombre", 0.0));
+
+        //MATERIAS DE QUINTO AÑO
+
+        quinto.getMaterias().add(new MateriaImpl(quinto, codigoMateria++, "nombre", 0.0));
+        quinto.getMaterias().add(new MateriaImpl(quinto, codigoMateria++, "nombre", 0.0));
+        quinto.getMaterias().add(new MateriaImpl(quinto, codigoMateria++, "nombre", 0.0));
+        quinto.getMaterias().add(new MateriaImpl(quinto, codigoMateria++, "nombre", 0.0));
+        quinto.getMaterias().add(new MateriaImpl(quinto, codigoMateria++, "nombre", 0.0));
+        quinto.getMaterias().add(new MateriaImpl(quinto, codigoMateria++, "nombre", 0.0));
+        quinto.getMaterias().add(new MateriaImpl(quinto, codigoMateria++, "nombre", 0.0));
+        quinto.getMaterias().add(new MateriaImpl(quinto, codigoMateria++, "nombre", 0.0));
+        quinto.getMaterias().add(new MateriaImpl(quinto, codigoMateria++, "nombre", 0.0));
+        quinto.getMaterias().add(new MateriaImpl(quinto, codigoMateria++, "nombre", 0.0));
+        quinto.getMaterias().add(new MateriaImpl(quinto, codigoMateria++, "nombre", 0.0));
+        quinto.getMaterias().add(new MateriaImpl(quinto, codigoMateria++, "nombre", 0.0));
         
 
-        // ... por favor complete el codigo faltante 
 
         // PLAN 2001
 
@@ -105,6 +149,28 @@ public class GenerarEjemplosDePlanes {
         planes.add(plan2001);
 
         // AÑOS DEL PLAN 2001
+
+        AnioPlan primer = new AnioPlanImpl(plan2001, 1, "Primer año");
+        AnioPlan segund = new AnioPlanImpl(plan2001, 2, "Segundo año");
+        AnioPlan tercer = new AnioPlanImpl(plan2001, 3, "Tercero año");
+        AnioPlan cuart = new AnioPlanImpl(plan2001, 4, "Cuarto año");
+        AnioPlan quint = new AnioPlanImpl(plan2001, 5, "Quinto año");
+        AnioPlan sexto = new AnioPlanImpl(plan2001, 5, "Sexto año");
+        AnioPlan septimo = new AnioPlanImpl(plan2001, 5, "Septimo año");
+
+        plan2001.getAnios().add(primero);
+        plan2001.getAnios().add(segundo);
+        plan2001.getAnios().add(tercero);
+        plan2001.getAnios().add(cuarto);
+        plan2001.getAnios().add(quinto);
+
+        codigoMateria = 1;
+
+
+        //MATERIAS DEL PLAN 2001 - PRIMER AÑO
+        primer.getMaterias().add(new MateriaImpl(primer, codigoMateria++, "nombre", 0.0));
+
+
 
          //... por favor complete el codigo faltante
 
