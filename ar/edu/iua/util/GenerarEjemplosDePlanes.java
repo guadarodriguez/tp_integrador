@@ -169,7 +169,110 @@ public class GenerarEjemplosDePlanes {
 
         //MATERIAS DEL PLAN 2001 - PRIMER AÑO
         primer.getMaterias().add(new MateriaImpl(primer, codigoMateria++, "nombre", 0.0));
+        primer.getMaterias().add(new MateriaImpl(primer, codigoMateria++, "nombre", 0.0));
+        primer.getMaterias().add(new MateriaImpl(primer, codigoMateria++, "nombre", 0.0));
+        primer.getMaterias().add(new MateriaImpl(primer, codigoMateria++, "nombre", 0.0));
+        primer.getMaterias().add(new MateriaImpl(primer, codigoMateria++, "nombre", 0.0));
+        primer.getMaterias().add(new MateriaImpl(primer, codigoMateria++, "nombre", 0.0));
+        primer.getMaterias().add(new MateriaImpl(primer, codigoMateria++, "nombre", 0.0));
+        primer.getMaterias().add(new MateriaImpl(primer, codigoMateria++, "nombre", 0.0));
+        primer.getMaterias().add(new MateriaImpl(primer, codigoMateria++, "nombre", 0.0));
+        primer.getMaterias().add(new MateriaImpl(primer, codigoMateria++, "nombre", 0.0));
+        primer.getMaterias().add(new MateriaImpl(primer, codigoMateria++, "nombre", 0.0));
+        primer.getMaterias().add(new MateriaImpl(primer, codigoMateria++, "nombre", 0.0));
 
+        //MATERIAS DEL PLAN 2001 - SEGUNDO AÑO
+        segund.getMaterias().add(new MateriaImpl(segund, codigoMateria++, "nombre", 0.0));
+        segund.getMaterias().add(new MateriaImpl(segund, codigoMateria++, "nombre", 0.0));
+        segund.getMaterias().add(new MateriaImpl(segund, codigoMateria++, "nombre", 0.0));
+        segund.getMaterias().add(new MateriaImpl(segund, codigoMateria++, "nombre", 0.0));
+        segund.getMaterias().add(new MateriaImpl(segund, codigoMateria++, "nombre", 0.0));
+        segund.getMaterias().add(new MateriaImpl(segund, codigoMateria++, "nombre", 0.0));
+        segund.getMaterias().add(new MateriaImpl(segund, codigoMateria++, "nombre", 0.0));
+        segund.getMaterias().add(new MateriaImpl(segund, codigoMateria++, "nombre", 0.0));
+        segund.getMaterias().add(new MateriaImpl(segund, codigoMateria++, "nombre", 0.0));
+        segund.getMaterias().add(new MateriaImpl(segund, codigoMateria++, "nombre", 0.0));
+        segund.getMaterias().add(new MateriaImpl(segund, codigoMateria++, "nombre", 0.0));
+        segund.getMaterias().add(new MateriaImpl(segund, codigoMateria++, "nombre", 0.0));
+
+        //MATERIAS DEL PLAN 2001 - TERCER AÑO
+        tercer.getMaterias().add(new MateriaImpl(tercer, codigoMateria++, "nombre", 0.0));
+        tercer.getMaterias().add(new MateriaImpl(tercer, codigoMateria++, "nombre", 0.0));
+        tercer.getMaterias().add(new MateriaImpl(tercer, codigoMateria++, "nombre", 0.0));
+        tercer.getMaterias().add(new MateriaImpl(tercer, codigoMateria++, "nombre", 0.0));
+        tercer.getMaterias().add(new MateriaImpl(tercer, codigoMateria++, "nombre", 0.0));
+        tercer.getMaterias().add(new MateriaImpl(tercer, codigoMateria++, "nombre", 0.0));
+        tercer.getMaterias().add(new MateriaImpl(tercer, codigoMateria++, "nombre", 0.0));
+        tercer.getMaterias().add(new MateriaImpl(tercer, codigoMateria++, "nombre", 0.0));
+        tercer.getMaterias().add(new MateriaImpl(tercer, codigoMateria++, "nombre", 0.0));
+        tercer.getMaterias().add(new MateriaImpl(tercer, codigoMateria++, "nombre", 0.0));
+        tercer.getMaterias().add(new MateriaImpl(tercer, codigoMateria++, "nombre", 0.0));
+        tercer.getMaterias().add(new MateriaImpl(tercer, codigoMateria++, "nombre", 0.0));
+
+        //MATERIAS DEL PLAN 2001 - CUARTO AÑO
+        cuart.getMaterias().add(new MateriaImpl(cuart, codigoMateria++, "nombre", 0.0));
+        cuart.getMaterias().add(new MateriaImpl(cuart, codigoMateria++, "nombre", 0.0));
+        cuart.getMaterias().add(new MateriaImpl(cuart, codigoMateria++, "nombre", 0.0));
+        cuart.getMaterias().add(new MateriaImpl(cuart, codigoMateria++, "nombre", 0.0));
+        cuart.getMaterias().add(new MateriaImpl(cuart, codigoMateria++, "nombre", 0.0));
+        cuart.getMaterias().add(new MateriaImpl(cuart, codigoMateria++, "nombre", 0.0));
+        cuart.getMaterias().add(new MateriaImpl(cuart, codigoMateria++, "nombre", 0.0));
+        cuart.getMaterias().add(new MateriaImpl(cuart, codigoMateria++, "nombre", 0.0));
+        cuart.getMaterias().add(new MateriaImpl(cuart, codigoMateria++, "nombre", 0.0));
+        cuart.getMaterias().add(new MateriaImpl(cuart, codigoMateria++, "nombre", 0.0));
+        cuart.getMaterias().add(new MateriaImpl(cuart, codigoMateria++, "nombre", 0.0));
+        cuart.getMaterias().add(new MateriaImpl(cuart, codigoMateria++, "nombre", 0.0));
+
+        //MATERIAS DEL PLAN 2001 - QUINTO AÑO
+        quint.getMaterias().add(new MateriaImpl(quint, codigoMateria++, "nombre", 0.0));
+        quint.getMaterias().add(new MateriaImpl(quint, codigoMateria++, "nombre", 0.0));
+        quint.getMaterias().add(new MateriaImpl(quint, codigoMateria++, "nombre", 0.0));
+        quint.getMaterias().add(new MateriaImpl(quint, codigoMateria++, "nombre", 0.0));
+        quint.getMaterias().add(new MateriaImpl(quint, codigoMateria++, "nombre", 0.0));
+        quint.getMaterias().add(new MateriaImpl(quint, codigoMateria++, "nombre", 0.0));
+        quint.getMaterias().add(new MateriaImpl(quint, codigoMateria++, "nombre", 0.0));
+        quint.getMaterias().add(new MateriaImpl(quint, codigoMateria++, "nombre", 0.0));
+        quint.getMaterias().add(new MateriaImpl(quint, codigoMateria++, "nombre", 0.0));
+        quint.getMaterias().add(new MateriaImpl(quint, codigoMateria++, "nombre", 0.0));
+        quint.getMaterias().add(new MateriaImpl(quint, codigoMateria++, "nombre", 0.0));
+        quint.getMaterias().add(new MateriaImpl(quint, codigoMateria++, "nombre", 0.0));
+        quint.getMaterias().add(new MateriaImpl(quint, codigoMateria++, "nombre", 0.0));
+        quint.getMaterias().add(new MateriaImpl(quint, codigoMateria++, "nombre", 0.0));
+        quint.getMaterias().add(new MateriaImpl(quint, codigoMateria++, "nombre", 0.0));
+
+        //MATERIAS DEL PLAN 2001 - SEXTO AÑO
+        sexto.getMaterias().add(new MateriaImpl(sexto, codigoMateria++, "nombre", 0.0));
+        sexto.getMaterias().add(new MateriaImpl(sexto, codigoMateria++, "nombre", 0.0));
+        sexto.getMaterias().add(new MateriaImpl(sexto, codigoMateria++, "nombre", 0.0));
+        sexto.getMaterias().add(new MateriaImpl(sexto, codigoMateria++, "nombre", 0.0));
+        sexto.getMaterias().add(new MateriaImpl(sexto, codigoMateria++, "nombre", 0.0));
+        sexto.getMaterias().add(new MateriaImpl(sexto, codigoMateria++, "nombre", 0.0));
+        sexto.getMaterias().add(new MateriaImpl(sexto, codigoMateria++, "nombre", 0.0));
+        sexto.getMaterias().add(new MateriaImpl(sexto, codigoMateria++, "nombre", 0.0));
+        sexto.getMaterias().add(new MateriaImpl(sexto, codigoMateria++, "nombre", 0.0));
+        sexto.getMaterias().add(new MateriaImpl(sexto, codigoMateria++, "nombre", 0.0));
+        sexto.getMaterias().add(new MateriaImpl(sexto, codigoMateria++, "nombre", 0.0));
+        sexto.getMaterias().add(new MateriaImpl(sexto, codigoMateria++, "nombre", 0.0));
+        sexto.getMaterias().add(new MateriaImpl(sexto, codigoMateria++, "nombre", 0.0));
+        sexto.getMaterias().add(new MateriaImpl(sexto, codigoMateria++, "nombre", 0.0));
+        sexto.getMaterias().add(new MateriaImpl(sexto, codigoMateria++, "nombre", 0.0));
+
+        //MATERIAS DEL PLAN 2001 - SEPTIMO AÑO
+        septimo.getMaterias().add(new MateriaImpl(septimo, codigoMateria++, "nombre", 0.0));
+        septimo.getMaterias().add(new MateriaImpl(septimo, codigoMateria++, "nombre", 0.0));
+        septimo.getMaterias().add(new MateriaImpl(septimo, codigoMateria++, "nombre", 0.0));
+        septimo.getMaterias().add(new MateriaImpl(septimo, codigoMateria++, "nombre", 0.0));
+        septimo.getMaterias().add(new MateriaImpl(septimo, codigoMateria++, "nombre", 0.0));
+        septimo.getMaterias().add(new MateriaImpl(septimo, codigoMateria++, "nombre", 0.0));
+        septimo.getMaterias().add(new MateriaImpl(septimo, codigoMateria++, "nombre", 0.0));
+        septimo.getMaterias().add(new MateriaImpl(septimo, codigoMateria++, "nombre", 0.0));
+        septimo.getMaterias().add(new MateriaImpl(septimo, codigoMateria++, "nombre", 0.0));
+        septimo.getMaterias().add(new MateriaImpl(septimo, codigoMateria++, "nombre", 0.0));
+        septimo.getMaterias().add(new MateriaImpl(septimo, codigoMateria++, "nombre", 0.0));
+        septimo.getMaterias().add(new MateriaImpl(septimo, codigoMateria++, "nombre", 0.0));
+        septimo.getMaterias().add(new MateriaImpl(septimo, codigoMateria++, "nombre", 0.0));
+        septimo.getMaterias().add(new MateriaImpl(septimo, codigoMateria++, "nombre", 0.0));
+        septimo.getMaterias().add(new MateriaImpl(septimo, codigoMateria++, "nombre", 0.0));
 
 
          //... por favor complete el codigo faltante
