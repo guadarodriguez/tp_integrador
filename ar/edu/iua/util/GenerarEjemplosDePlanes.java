@@ -169,7 +169,7 @@ public class GenerarEjemplosDePlanes {
 
         //MATERIAS DEL PLAN 2001 - PRIMER AÑO
         primer.getMaterias().add(new MateriaImpl(primer, codigoMateria++, "nombre", 0.0));
-
+        primer.getMaterias().add(new MateriaImpl(primer, codigoMateria++, "nombre", 0.0));
 
 
          //... por favor complete el codigo faltante
