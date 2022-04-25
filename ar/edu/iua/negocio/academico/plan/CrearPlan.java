@@ -26,6 +26,8 @@ public interface CrearPlan {
             - No se permite que una materia no tenga carga horaria, excepto si el estado del plan es BORRADOR 
             - No se permite que una materias tenga carga horaria < 0, recordar que si el estado del plan es BORRADOR, este att puede ser null, pero nunca <= 0 
     */
+    
+
     boolean crear(Plan plan);    
     
 }
