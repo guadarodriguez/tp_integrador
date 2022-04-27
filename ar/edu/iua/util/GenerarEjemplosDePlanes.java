@@ -39,7 +39,7 @@ public class GenerarEjemplosDePlanes {
         plan2018.getAnios().add(cuarto);
         plan2018.getAnios().add(quinto);
 
-        // MATEIAS DEL PLAN 2018 - PRIMER AÑO
+        // MATERIAS DEL PLAN 2018 - PRIMER AÑO
 
         int codigoMateria = 1;
 
@@ -107,7 +107,7 @@ public class GenerarEjemplosDePlanes {
 
         //MATERIAS DEL PLAN 2018 - CUARTO AÑO
 
-        cuarto.getMaterias().add(new MateriaImpl(cuarto, codigoMateria++, "nombre", 0.0));
+        cuarto.getMaterias().add(new MateriaImpl(cuarto, codigoMateria++, "Biologia 1", 3.0));
         cuarto.getMaterias().add(new MateriaImpl(cuarto, codigoMateria++, "nombre", 0.0));
         cuarto.getMaterias().add(new MateriaImpl(cuarto, codigoMateria++, "nombre", 0.0));
         cuarto.getMaterias().add(new MateriaImpl(cuarto, codigoMateria++, "nombre", 0.0));
