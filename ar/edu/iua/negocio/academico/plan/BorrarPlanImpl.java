@@ -1,14 +1,11 @@
 package ar.edu.iua.negocio.academico.plan;
 
-import java.util.List;
-
 import ar.edu.iua.modelo.academico.plan.Plan;
 
-public class BorrarPlanImpl implements BorrarPlanes {
+public class BorrarPlanImpl implements BorrarPlan {
 
-    public boolean borrar(List<Plan> plan) {
-        if (plan == null && ((Plan) plan).isEstadoBorrador()) {
-            plan.clear();
+    public boolean borrar(Plan plan) {
+        if (plan != null && plan.isEstadoBorrador()) {
             return true;
         } else {
             return false;
