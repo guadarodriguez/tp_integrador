@@ -1,6 +1,7 @@
 package ar.edu.iua.interfazusuario;
 
 public interface BuscarEImprimirPlanes {
+    
 
     // este metodo debe imprimir un listado de planes segun los terminos de busqueda
     // se valora que la impresion sea tabulada, con columnas o en forma de tarjetas
