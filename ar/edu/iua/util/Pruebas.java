@@ -2,12 +2,14 @@ package ar.edu.iua.util;
 
 import java.util.List;
 
-//import ar.edu.iua.interfazusuario.BuscarEImprimirPlanes;
+import ar.edu.iua.interfazusuario.BuscarEImprimirPlanes;
+import ar.edu.iua.interfazusuario.BuscarEImprimirPlanesImpl;
 import ar.edu.iua.modelo.academico.plan.Plan;
 import ar.edu.iua.modelo.academico.plan.PlanImpl;
 import ar.edu.iua.negocio.academico.plan.CrearPlan;
 import ar.edu.iua.negocio.academico.plan.CrearPlanImpl;
-//import ar.edu.iua.negocio.academico.plan.CrearPlanes;
+import ar.edu.iua.negocio.academico.plan.ModificarPlan;
+import ar.edu.iua.negocio.academico.plan.ModificarPlanImpl;
 
 public class Pruebas {
 
@@ -29,25 +31,25 @@ public class Pruebas {
             return;
         }
 
-        /*
+       
         ModificarPlan modificarPlan = new ModificarPlanImpl();
         
         planes.get(0).setAnio(2050);
         planes.get(1).setAnio(2003);
 
-        boolean ok = modificarPlan.modificar(planes.get(0));
-        System.out.println("Se modifico el plan " + planes.get(0) + " ? = " + (ok ? "SI" : "NO") );
+        boolean okk = modificarPlan.modificar(planes.get(0));
+        System.out.println("Se modifico el plan " + planes.get(0) + " ? = " + (okk ? "SI" : "NO") );
 
-        ok = modificarPlan.modificar(planes.get(1));
-        System.out.println("Se modifico el plan " + planes.get(1) + " ? = " + (ok ? "SI" : "NO") );
+        okk = modificarPlan.modificar(planes.get(1));
+        System.out.println("Se modifico el plan " + planes.get(1) + " ? = " + (okk ? "SI" : "NO") );
 
 
         BuscarEImprimirPlanes buscarEImprimirPlanes = new BuscarEImprimirPlanesImpl();
 
         // debe buscar todos los planes que contengan en sus datos (incluido años y materias)
         // devolver todos los planes q contengan un valor 18, o mate o hist o 5
-        buscarEImprimirPlanes.buscar(" 18 mate hist 5"); 
-        */
+        buscarEImprimirPlanes.buscar(" 18 mate hist 5") ; 
+      
 
         
        // por favor complete con mas codigo de pruebas, trate de probar todas las clases de negocio, borrar, modificar, buscar    
